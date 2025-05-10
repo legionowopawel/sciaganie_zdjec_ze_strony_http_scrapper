@@ -1,8 +1,4 @@
-Oto poprawna wersja pliku **README.md** w formacie Markdown, którą możesz dodać do swojego repozytorium. Tym razem upewniłem się, że struktura jest klarowna, a formatowanie powinno wyświetlać się poprawnie na GitHubie.
 
----
-
-```markdown
 # Scraper Downloader – Pobieranie obrazów ze stron internetowych
 
 ![Interfejs programu](images/interfejs.png)
