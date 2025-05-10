@@ -1,0 +1,21 @@
+w terminalu wpisz:
+
+py --list
+
+wybierz wersję
+
+py -3.13 -m venv venv
+
+aktywuj
+venv\Scripts\activate
+
+
+python --version
+
+
+od tej pory można używać pliku
+start.bat
+by uruchamiać środowisko w terminalu.
+
+
+pip install -r requirements.txt
