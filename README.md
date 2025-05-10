@@ -1,5 +1,5 @@
 
-# Scraper Downloader – Pobieranie obrazów ze stron internetowych
+# Scraper Downloader – Pobieranie obrazów ze stron internetowych.
 
 ![Interfejs programu](images/interfejs.png)
 
