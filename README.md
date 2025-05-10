@@ -1,19 +1,25 @@
+Oto poprawna wersja pliku **README.md** w formacie Markdown, którą możesz dodać do swojego repozytorium. Tym razem upewniłem się, że struktura jest klarowna, a formatowanie powinno wyświetlać się poprawnie na GitHubie.
 
+---
 
 ```markdown
-# Scraper Downloader – Pobieranie obrazów ze strony internetowej
+# Scraper Downloader – Pobieranie obrazów ze stron internetowych
 
 ![Interfejs programu](images/interfejs.png)
 
-## Opis projektu
+## 📌 Opis projektu
 
-**Scraper Downloader** to aplikacja napisana w Pythonie, umożliwiająca pobieranie multimediów (głównie obrazów) ze stron internetowych.  
-Program posiada **graficzny interfejs użytkownika** (GUI), umożliwiający wpisanie adresu URL, wybór katalogu zapisu i rozpoczęcie pobierania. Wykorzystuje technologie:
-- **Scrapy** do obsługi pobierania stron i ekstrakcji danych,
-- **requests** do pobierania plików z internetu,
-- **tqdm** do dynamicznego wyświetlania pasków postępu.
+**Scraper Downloader** to aplikacja napisana w Pythonie, która umożliwia pobieranie multimediów (głównie obrazów) ze stron internetowych.  
+Program posiada **graficzny interfejs użytkownika** (GUI), umożliwiający wpisanie adresu URL, wybór katalogu zapisu i rozpoczęcie pobierania.  
 
-## Struktura projektu
+Wykorzystuje:
+- 🕷️ **Scrapy** – do obsługi pobierania stron i ekstrakcji danych,
+- 🔗 **requests** – do pobierania plików z internetu,
+- 📊 **tqdm** – do dynamicznego wyświetlania pasków postępu.
+
+---
+
+## 📂 Struktura projektu
 
 ```
 scraper_sciaganie_zdjec_ze_strony_http/
@@ -27,31 +33,43 @@ scraper_sciaganie_zdjec_ze_strony_http/
 └── venv/                   # Środowisko wirtualne (nie wersjonowane - ujęte w .gitignore)
 ```
 
-## Instalacja i uruchomienie (Windows, Uruchamiano w Python 3.13)
+> **💡 Uwaga:** Katalog `venv` nie jest wypychany do repozytorium. Jest wykluczony w `.gitignore`, aby każdy użytkownik mógł samodzielnie utworzyć swoje środowisko i zainstalować zależności.
 
-1. **Klonowanie repozytorium:**
+---
 
-   W terminalu :
-   ```bash
-   git clone https://github.com/legionowopawel/sciaganie_zdjec_ze_strony_http_scrapper.git
-   ```
+## 🖥️ Instalacja i uruchomienie (Windows)
 
-2. **Uruchomienie środowiska wirtualnego:**
+### 1️⃣ Klonowanie repozytorium:
 
-   W katalogu głównym projektu znajduje się plik `start.bat`.  
-   **Po dwukrotnym kliknięciu** pliku `start.bat` otworzy się terminal z aktywowanym środowiskiem wirtualnym.
+W terminalu lub PowerShell wykonaj:
 
-3. **Instalacja zależności:**
+```bash
+git clone https://github.com/legionowopawel/sciaganie_zdjec_ze_strony_http_scrapper.git
+```
 
-   W aktywowanym środowisku uruchom komendę:
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-4. **Uruchomienie aplikacji:**
+### 2️⃣ Uruchomienie środowiska wirtualnego:
 
-   Przejdź do katalogu `src` i uruchom główny skrypt:
-   ```bash
-   python main.py
-   ```
- 
+W katalogu głównym projektu znajduje się plik `start.bat`.  
+**Po dwukrotnym kliknięciu** pliku `start.bat`, otworzy się terminal z aktywowanym środowiskiem wirtualnym.
+
+---
+
+### 3️⃣ Instalacja zależności:
+
+W aktywowanym środowisku uruchom komendę:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Uruchomienie aplikacji:
+
+Przejdź do katalogu `src` i uruchom główny skrypt:
+
+```bash
+python main.py
+```
